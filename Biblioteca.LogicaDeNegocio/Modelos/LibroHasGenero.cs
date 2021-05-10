@@ -5,7 +5,8 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
 {
     public class LibroHasGenero
     {
-        [Key, Column("id_lhg")]
+        [Key]
+        [Column("id_lhg")]
         public int Id { get; set; }
 
         [Column("id_libro")]

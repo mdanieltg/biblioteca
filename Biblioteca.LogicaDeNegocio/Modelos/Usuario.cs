@@ -6,7 +6,8 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
 {
     public class Usuario
     {
-        [Key, Column("id_usuario")]
+        [Key]
+        [Column("id_usuario")]
         public string IdUsuario { get; set; }
 
         public TipoUsuario Tipo { get; set; }

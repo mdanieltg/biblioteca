@@ -5,7 +5,8 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
 {
     public class Editorial
     {
-        [Key, Column("id_editorial")]
+        [Key]
+        [Column("id_editorial")]
         public int Id { get; set; }
 
         public string Nombre { get; set; }

@@ -5,7 +5,8 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
 {
     public class Favorito
     {
-        [Key, Column("id_favorito")]
+        [Key]
+        [Column("id_favorito")]
         public long Id { get; set; }
 
         [Column("id_usuario")]

@@ -5,7 +5,8 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
 {
     public class Autor
     {
-        [Key, Column("id_autor")]
+        [Key]
+        [Column("id_autor")]
         public int Id { get; set; }
 
         public string Nombre { get; set; }

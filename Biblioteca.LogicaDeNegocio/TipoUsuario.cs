@@ -1,4 +1,4 @@
-﻿namespace Biblioteca.BusinessLogic
+﻿namespace Biblioteca.LogicaDeNegocio
 {
     public enum TipoUsuario
     {

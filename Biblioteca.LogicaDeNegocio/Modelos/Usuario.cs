@@ -8,7 +8,7 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
     {
         [Key]
         [Column("id_usuario")]
-        public string IdUsuario { get; set; }
+        public string Id { get; set; }
 
         public TipoUsuario Tipo { get; set; }
 

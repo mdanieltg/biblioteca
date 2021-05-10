@@ -10,7 +10,7 @@ namespace Biblioteca.LogicaDeNegocio.Modelos
         [Column("id_usuario")]
         public string Id { get; set; }
 
-        public TipoUsuario Tipo { get; set; }
+        public string Tipo { get; set; }
 
         public string Nombre { get; set; }
 

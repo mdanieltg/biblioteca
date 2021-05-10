@@ -1,3 +1,4 @@
+using System;
 using Biblioteca.LogicaDeNegocio.Servicios;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,7 +12,7 @@ namespace Biblioteca.ApiWeb.Controladores
 
         public ControladorAutor(IRepositorioBiblioteca repositorioBiblioteca)
         {
-            _repositorio = repositorioBiblioteca;
+            _repositorio = repositorioBiblioteca ?? throw new ArgumentNullException();
         }
 
         [HttpGet]

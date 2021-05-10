@@ -16,12 +16,12 @@ namespace Biblioteca.LogicaDeNegocio.Servicios
 
         public IEnumerable<Autor> ObtenerAutores()
         {
-            return _db.Autor.ToList();
+            return _db.Autores.ToList();
         }
 
         public Autor ObtenerAutor(int idAutor)
         {
-            return _db.Autor.FirstOrDefault(a => a.Id == idAutor);
+            return _db.Autores.FirstOrDefault(a => a.Id == idAutor);
         }
     }
 }

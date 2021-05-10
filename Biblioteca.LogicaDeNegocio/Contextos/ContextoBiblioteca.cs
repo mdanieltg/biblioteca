@@ -9,12 +9,12 @@ namespace Biblioteca.LogicaDeNegocio.Contextos
         {
         }
 
-        public DbSet<Autor> Autor { get; set; }
-        public DbSet<Genero> Genero { get; set; }
-        public DbSet<Editorial> Editorial { get; set; }
-        public DbSet<Libro> Libro { get; set; }
-        public DbSet<LibroHasGenero> LibroGenero { get; set; }
-        public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<Favorito> Favorito { get; set; }
+        public DbSet<Autor> Autores { get; set; }
+        public DbSet<Genero> Generos { get; set; }
+        public DbSet<Editorial> Editoriales { get; set; }
+        public DbSet<Libro> Libros { get; set; }
+        public DbSet<LibroHasGenero> LibroHasGeneros { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Favorito> Favoritos { get; set; }
     }
 }
